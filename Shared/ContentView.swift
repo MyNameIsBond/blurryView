@@ -1,16 +1,25 @@
-//
-//  ContentView.swift
-//  Shared
-//
-//  Created by Tony Hajdini on 20/01/2021.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        GeometryReader { g in
+            ZStack(alignment: .trailing) {
+                LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea().frame(maxWidth: .infinity, maxHeight: .infinity)
+                Color.green.frame(width: 50, height: UIScreen.main.bounds.height - 20).ignoresSafeArea()
+                Color.red.opacity(0.3).frame(width:  UIScreen.main.bounds.width, height: UIScreen.main.bounds.height ).ignoresSafeArea()
+            }.frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+    }
+    
+    var ios: View {
+    
+    ZStack(alignment: .trailing) {
+    LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea().frame(maxWidth: .infinity, maxHeight: .infinity)
+    Color.green.frame(width: 50, height: UIScreen.main.bounds.height - 20).ignoresSafeArea()
+    Color.red.opacity(0.3).frame(width:  UIScreen.main.bounds.width, height: UIScreen.main.bounds.height ).ignoresSafeArea()
+    }.frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
