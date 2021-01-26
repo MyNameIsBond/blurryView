@@ -13,6 +13,9 @@
 		EA4B1C4525B894FA002B710D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B1C3025B894F8002B710D /* ContentView.swift */; };
 		EA4B1C4625B894FA002B710D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4B1C3125B894FA002B710D /* Assets.xcassets */; };
 		EA4B1C4725B894FA002B710D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4B1C3125B894FA002B710D /* Assets.xcassets */; };
+		EAD2B73125BF9644001F378E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2B73025BF9644001F378E /* SwiftUIView.swift */; };
+		EAD2B73525BF971F001F378E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2B73425BF971F001F378E /* SwiftUIView.swift */; };
+		EAD2B73925BFD8A9001F378E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2B73825BFD8A9001F378E /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EA4B1C3E25B894FA002B710D /* BlurryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4B1C4025B894FA002B710D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA4B1C4125B894FA002B710D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EAD2B73025BF9644001F378E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EAD2B73425BF971F001F378E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EAD2B73825BFD8A9001F378E /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				EA4B1C3925B894FA002B710D /* Info.plist */,
+				EAD2B73025BF9644001F378E /* SwiftUIView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -86,6 +93,8 @@
 			children = (
 				EA4B1C4025B894FA002B710D /* Info.plist */,
 				EA4B1C4125B894FA002B710D /* macOS.entitlements */,
+				EAD2B73425BF971F001F378E /* SwiftUIView.swift */,
+				EAD2B73825BFD8A9001F378E /* BlurView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -189,6 +198,7 @@
 			files = (
 				EA4B1C4425B894FA002B710D /* ContentView.swift in Sources */,
 				EA4B1C4225B894FA002B710D /* BlurryViewApp.swift in Sources */,
+				EAD2B73125BF9644001F378E /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA4B1C4525B894FA002B710D /* ContentView.swift in Sources */,
+				EAD2B73925BFD8A9001F378E /* BlurView.swift in Sources */,
 				EA4B1C4325B894FA002B710D /* BlurryViewApp.swift in Sources */,
+				EAD2B73525BF971F001F378E /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
