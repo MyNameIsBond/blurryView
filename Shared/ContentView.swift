@@ -16,16 +16,7 @@ struct ContentView: View {
         #endif
     }
     
-    var macOS: some View {
-        ZStack(alignment: .center) {
-            LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea().frame(maxWidth: .infinity, maxHeight: .infinity)
-            Color.teal.frame(width: 50, height: 200).ignoresSafeArea()
-            Color.red.opacity(0.3).frame(width:  200, height: 200 ).ignoresSafeArea()
-            BlurView(material: NSVisualEffectView.Material.menu, blendingMode: NSVisualEffectView.BlendingMode.withinWindow)
-            CardmacOS()
-        }.frame(maxWidth: .infinity, maxHeight: .infinity)
-        
-    }
+   
 }
 
 
