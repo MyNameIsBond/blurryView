@@ -31,6 +31,7 @@ struct CardmacOS: View {
                     .fontWeight(.medium)
                     .tracking(4)
                     .padding([.top,.leading])
+                
                 HStack {
                     Text("1234").font(.caption).fontWeight(.light)
                     Spacer()
