@@ -12,11 +12,8 @@ struct ContentView: View {
         ios
         #else
         macOS
-        
         #endif
     }
-    
-   
 }
 
 
