@@ -23,6 +23,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-
-//MARK: Blur Effect
-
